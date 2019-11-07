@@ -1,7 +1,7 @@
 # Личный проект «Пинк» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Стелла Великая](https://up.htmlacademy.ru/adaptive/18/user/852459).
-* Наставник: `Неизвестно`.
+* Наставник: [Максим Прусаков](https://up.htmlacademy.ru/adaptive/18/user/83559).
 
 ---
 
