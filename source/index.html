@@ -4,9 +4,75 @@
     <meta charset="utf-8">
     <title>HTML Academy: Пинк</title>
   </head>
+
   <body>
+    <header class="page-header">
+      <a class="page-header__logo">
+        <img class="page-header__logo-image" src="img/logo-pink-white-mobile.svg" width="75" height="23" alt="Приложение 'Пинк'">
+      </a>
+      <nav class="main-nav">
+        <button class="main-nav__toggle" type="button">Открыть меню</button>
+        <div class="main-nav__wrapper">
+          <ul class="main-nav__list site-list">
+            <li class="site-list__item site-list__item--active">
+              <a>Главная</a>
+            </li>
+            <li class="site-list__item">
+              <a href="photo.html">Фотографии</a>
+            </li>
+            <li class="site-list__item">
+              <a href="form.html">Конкурс</a>
+            </li>
+            <li class="site-list__item">
+              <a href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header> 
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS, уровень 2</a>».</p>
-
+    <main class="page-main">
+      <h1 class="visually-hidden">Пинк - мобильное приложение для раскрашивания серых будней в розовый цвет</h1>
+      <img class="page-main__picture" src="img/iphone-hand-mobile@1x.png" width="258" height="286" alt="Промо работы приложения 'Пинк'">
+      
+      <div class="download-app">
+        <a class="download-app__link" href="https://www.apple.com/ios/app-store/">Скачать приложение</a>
+        <ul class="download-app__list">
+          <li class="download-app__list-item">
+            <a class="download-app__list-link" href="https://www.apple.com/ios/app-store/"><img src="img/logo-apple.svg" width="47" height="57" alt="App Store"></a>
+          </li>
+          <li class="download-app__list-item">
+            <a class="download-app__list-link" href="https://play.google.com/store/apps?hl=ru"><img src="img/logo-android.svg" width="43" height="48" alt="Play Market"></a>
+          </li>
+          <li class="download-app__list-item">
+            <a class="download-app__list-link" href="https://www.microsoft.com/uk-ua/store/apps/windows-phone"><img src="img/logo-microsoft.svg" width="44" height="42" alt="Microsoft Store"></a></li>
+        </ul>
+        <p class="download-app__description">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
+      </div>
+      
+      <p class="page-main__attract-attention">Устали от серости мегаполиса?</p>
+      <p class="page-main__attract-attention">Нам есть, что вам предложить!</p>
+       
+      <section class="features">
+        <ul class="features__list">
+          <li class="features__item features__item--mood">
+            <h2 class="features__title">Поднимает настроение</h2>
+            <p class="features__description">Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
+          </li>
+          <li class="features__item features__item--world">
+            <h2 class="features__title">Меняет мир вокруг</h2>
+            <p class="features__description">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
+          </li>
+          <li class="features__item features__item--friends">
+            <h2 class="features__title">Заводит новых друзей</h2>
+            <p class="features__description">Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</p>
+          </li>      
+        </ul>
+      </section>
+        
+      <!-- <img class="page-main__picture" src="img/iphone-screen-mobile@1x.png" width="157" height="320" alt="Промо работы приложения 'Пинк' - декор фото смайликом"> -->
+           
+    </main>
+  
   </body>
 </html>
